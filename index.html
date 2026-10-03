@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Car Rental Guide | Find Your Rental Car</title>
+<meta name="description" content="Global Car Rental Guide helps travelers find and compare rental car options for their next journey.">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f7f7f7;color:#17202a;line-height:1.5}
+a{text-decoration:none}
+header{background:#0b1320;color:#fff;padding:18px 5%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:21px;font-weight:bold;color:#fff}
+.logo span{color:#d4af37}
+nav a{color:#fff;margin-left:18px;font-size:14px}
+.hero{padding:95px 7%;text-align:center;color:#fff;background:linear-gradient(#0009,#0009),url("https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=1400&q=80") center/cover}
+.hero h1{font-size:42px;line-height:1.1;margin-bottom:15px}
+.hero h1 span{color:#d4af37}
+.hero p{max-width:650px;margin:0 auto 25px;color:#eee}
+.btn{display:inline-block;padding:13px 22px;background:#d4af37;color:#111;font-weight:bold;border-radius:5px}
+.search{background:#fff;padding:25px;max-width:1000px;margin:-35px auto 0;position:relative;border-radius:8px;box-shadow:0 5px 20px #0002}
+.search h2{margin-bottom:18px;text-align:center}
+.form{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+input{width:100%;padding:13px;border:1px solid #ddd;border-radius:5px;font-size:14px}
+.search .btn{margin-top:15px}
+section{padding:60px 5%}
+.title{text-align:center;max-width:700px;margin:0 auto 30px}
+.title h2{font-size:30px;margin-bottom:8px}
+.title p{color:#666}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1100px;margin:auto}
+.card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 3px 12px #0001}
+.card img{width:100%;height:170px;object-fit:cover}
+.card div{padding:18px}
+.card h3{margin-bottom:7px}
+.card p{font-size:14px;color:#666;margin-bottom:12px}
+.link{color:#9a7710;font-weight:bold;font-size:14px}
+.dark{background:#0b1320;color:#fff}
+.dark .title p{color:#ccc}
+footer{background:#070d16;color:#aaa;text-align:center;padding:35px 5%;font-size:13px}
+footer h3{color:#fff;margin-bottom:8px}
+.disclosure{max-width:800px;margin:20px auto 15px;font-size:12px}
+@media(max-width:700px){
+nav{display:none}
+.hero{padding:75px 6%}
+.hero h1{font-size:34px}
+.form,.cards{grid-template-columns:1fr}
+.search{width:90%}
+section{padding:45px 5%}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<a class="logo" href="#">Global Car Rental <span>Guide</span></a>
+<nav>
+<a href="#search">Search</a>
+<a href="#cars">Cars</a>
+<a href="#about">About</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Find the Right Rental Car <span>for Your Journey</span></h1>
+<p>
+Explore rental car options and find a vehicle that fits
+your journey, wherever you're going.
+</p>
+<a class="btn affiliate" href="#">Search Rental Cars</a>
+</section>
+
+<div class="search" id="search">
+<h2>Find Your Rental Car</h2>
+
+<div class="form">
+<input type="text" placeholder="Enter pick-up location">
+<input type="text" placeholder="Enter drop-off location">
+<input type="date">
+</div>
+
+<a class="btn affiliate" href="#">Search Rental Cars</a>
+</div>
+
+<section id="cars">
+<div class="title">
+<h2>Explore Vehicle Options</h2>
+<p>
+Choose from different vehicle categories based on your
+journey, space and travel needs.
+</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=700&q=80" alt="Economy car">
+<div>
+<h3>Economy Cars</h3>
+<p>Practical vehicles for everyday journeys.</p>
+<a class="link affiliate" href="#">Explore Cars →</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=700&q=80" alt="SUV">
+<div>
+<h3>SUVs</h3>
+<p>Extra space for passengers, luggage and longer journeys.</p>
+<a class="link affiliate" href="#">Explore Cars →</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=700&q=80" alt="Luxury car">
+<div>
+<h3>Luxury Cars</h3>
+<p>Premium vehicles for memorable journeys and special occasions.</p>
+<a class="link affiliate" href="#">Explore Cars →</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="dark">
+<div class="title">
+<h2>Why Compare Rental Cars?</h2>
+<p>
+Start your search with useful information and explore
+different rental options before making your booking.
+</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div>
+<h3>Compare Options</h3>
+<p>Explore different rental-car choices in one convenient place.</p>
+</div>
+</div>
+
+<div class="card">
+<div>
+<h3>Choose Your Vehicle</h3>
+<p>Find vehicle categories suited to different travel needs.</p>
+</div>
+</div>
+
+<div class="card">
+<div>
+<h3>Travel Prepared</h3>
+<p>Learn useful information before collecting your rental car.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<div class="title">
+<h2>About Global Car Rental Guide</h2>
+<p>
+Global Car Rental Guide is an independent travel resource
+helping travelers research rental-car options and find
+useful information before their journey.
+</p>
+</div>
+
+<div style="text-align:center">
+<a class="btn affiliate" href="#">Compare Rental Cars</a>
+</div>
+</section>
+
+<footer>
+<h3>Global Car Rental <span style="color:#d4af37">Guide</span></h3>
+
+<div class="disclosure">
+<strong>Affiliate Disclosure:</strong>
+Some links on this website are affiliate links. If you make
+a booking through one of these links, we may receive a
+commission at no additional cost to you.
+</div>
+
+<p>© 2026 Global Car Rental Guide. All Rights Reserved.</p>
+</footer>
+
+<script>
+const affiliateURL="YOUR_DISCOVER_CARS_AFFILIATE_LINK";
+
+document.querySelectorAll(".affiliate").forEach(function(link){
+link.href=affiliateURL;
+link.target="_blank";
+link.rel="noopener noreferrer sponsored";
+});
+</script>
+
+</body>
+</html>
